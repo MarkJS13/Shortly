@@ -622,14 +622,17 @@ footer {
   position: relative;
 }
 
+
+
 .attribution {
-  position: absolute;
-  bottom: 0;
   font-size: 8px;
   color: var(--gray);
+  position: absolute;
+  bottom: 0;
+  left: 45%;
   padding-bottom: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.attribution a{
-  color: var(--gray);
-}
