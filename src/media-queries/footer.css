@@ -1,0 +1,82 @@
+@media (max-width: 1081px) {
+   
+    footer {
+        padding: 60px 60px;
+      }
+
+}
+@media (max-width: 973px) {
+   
+    footer {
+        padding: 60px 50px;
+        gap: 50px;
+      }     
+      
+      footer .shortlinks {
+        gap: 25px;
+      }
+      
+      .features, .resources, .our-team {
+        gap: 20px;
+      }
+      
+      footer .shortlinks p{
+        font-weight: 600;
+        font-size: 14px;
+      }
+      
+      footer .shortlinks ul{
+        gap: 11px;
+      }
+
+      footer .shortlinks ul li {
+        font-size: 13px;
+      }
+      
+      footer .socials {
+        gap: 20px;
+      }
+      
+
+}
+@media (max-width: 730px) {
+      
+      .lower-section .boost {
+        padding: 95px 0;
+        background: url('/src/assets/images/bg-boost-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: var(--dark-violet);
+      }
+      
+      
+      footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+      }
+      
+      footer .shortlinks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 35px;
+      }
+
+      footer .shortlinks p{
+        font-size: clamp(1rem, 0.0625rem + 3vw, 1.75rem);
+      }
+
+      footer .shortlinks ul li{
+        font-size: clamp(0.875rem, -0.2188rem + 3.5vw, 1.75rem);
+        gap: 11px;
+      }
+
+      footer .socials {
+        gap: 22px;
+      }
+
+}
