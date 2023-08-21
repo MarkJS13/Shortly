@@ -616,3 +616,20 @@ footer .socials {
 .hamburger {
   cursor: pointer;
 }
+
+
+footer {
+  position: relative;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  font-size: 8px;
+  color: var(--gray);
+  padding-bottom: 3px;
+}
+
+.attribution a{
+  color: var(--gray);
+}
