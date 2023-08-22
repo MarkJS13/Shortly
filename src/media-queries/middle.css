@@ -249,7 +249,10 @@
         width: 100%;
         border-radius: 5px;
       }
-      
+
+      .shorten-form form button:hover {
+        background-color: var(--cyan) !important;
+      }
       .shorted-links {
         padding-top: 165px;
         margin: 0 50px;
@@ -283,6 +286,10 @@
         justify-content: center;
         margin: 0 25px;
         font-size: clamp(1.125rem, 0.5781rem + 1.75vw, 1.5625rem);
+      }
+
+      .copy:hover {
+        background-color: var(--cyan);
       }
       
       .banners {

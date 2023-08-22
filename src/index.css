@@ -374,18 +374,16 @@ header .login-section .signup:hover {
 }
 
 .brand-logo {
-  background-image: url('src/assets/images/icon-brand-recognition.svg');
+  background-image: url('../src/assets/images/icon-brand-recognition.svg');
 }
 
 .detailed-logo{
-  background-image: url('src/assets/images/icon-detailed-records.svg');
+  background-image: url('../src/assets/images/icon-detailed-records.svg');
 }
 
 .custom-logo {
-  background-image: url('src/assets/images/icon-fully-customizable.svg');
+  background-image: url('../src/assets/images/icon-fully-customizable.svg');
 }
-
-
 
 .cards .card h3 {
   font-size: 24px;
@@ -625,14 +623,17 @@ footer {
 
 
 .attribution {
-  font-size: 8px;
+  font-size: 7px;
   color: var(--gray);
   position: absolute;
   bottom: 0;
-  left: 45%;
   padding-bottom: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+
+.attribution a{
+  color: var(--gray);
+}
